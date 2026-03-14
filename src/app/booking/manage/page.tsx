@@ -1,6 +1,6 @@
 export default function ManageBooking(){
     return(
-        <main>
+        <main className="text-center text-lg">
             <div>Manage Your Booking</div>
         </main>
     );
