@@ -52,6 +52,7 @@ const mockVenueRepo = [
                     mockVenueRepo.map((venueItem)=>(
                         <Link href={`/venue/${venueItem.vid}`} className="w-1/5">
                          <Card
+                         key={venueItem.vid}
                         venueName={venueItem.name}
                         imgSrc={venueItem.image}
                         rating={venueRatings.get(venueItem.name) || 0}

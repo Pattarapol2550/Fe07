@@ -26,15 +26,15 @@ Finding the perfect venue has never been easier. Whether it's a wedding, corpora
         </div>
 
         <button
-        className="absolute bottom-6 right-6 bg-blue-600 text-white px-5 py-2 rounded-lg shadow-lg 
-        hover:bg-indigo-600 transform transition duration-200 hover:scale-110"
-        onClick={(e)=>{
-          e.stopPropagation()
-          router.push("/venue")
-        }}
-      >
-        Select Venue
-      </button>
+      className="absolute bottom-6 right-6 bg-blue-600 text-white px-5 py-2 rounded-lg shadow-lg 
+      hover:bg-indigo-600 transform transition duration-200 hover:scale-110"
+      onClick={(e)=>{
+        e.stopPropagation()
+        router.push("/venue")
+      }}
+    >
+      Select Venue
+    </button>
     </div>
 
     
